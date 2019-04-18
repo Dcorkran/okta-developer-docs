@@ -673,7 +673,7 @@ You must include an access token (returned from the [authorization endpoint](#au
 
 
 ```bash
-curl -v -X POST \
+curl -v -X GET \
 -H "Authorization: Bearer ${access_token}" \
 "https://{baseUrl}/userinfo"
 ```
